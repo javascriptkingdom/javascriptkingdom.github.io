@@ -105,7 +105,9 @@
         </div>
         <div class="Heading">
             <h2>A community for JavaScript developers, We are now part of 15K+ members. <a target="_blank" href="https://javascriptkingdom.github.io/partner">Our Partners </a></h2>
+       <p id = "result"></p>
         </div>
+        
         <div class="main-content">
             <div class="item">
                 <a href="https://twitter.com/javascriptking" target="_blank"><i class="fa fa-twitter" aria-hidden="true" style="color: rgb(29, 161, 242);"></i></a>
@@ -122,9 +124,20 @@
             
         </div>
         <div class="footer">
-            <p>Community is mainted by <a  href="https://rao123dk.github.io/" target="_blank">Dheraj Kumar rao</a></p>
+            <p>Community is maintained by <a  href="https://rao123dk.github.io/" target="_blank">Dheeraj Kumar rao</a></p>
         </div>
     </div>
+    <script>
+      function redirect () {
+         setTimeout(myURL, 3000);
+         var result = document.getElementById("result");
+         result.innerHTML = "<b> The page will redirect after few seconds";
+      }
+
+      function myURL() {
+         document.location.href = 'https://javascriptkingdom.com/';
+      }
+   </script>
 </body>
 
 </html>
